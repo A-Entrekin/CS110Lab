@@ -50,7 +50,7 @@ public class Character {
 	public String description(){
 		String s = name + "\nInventory\n";
 		for(int i = 0; i< inventory.length && inventory[i] != null; i++){
-			s += inventory[i];
+			s += (i + 1) + ") " +  inventory[i];
 		}
 		s += "Actions\n";
 		for(int i = 0; i< actions.length && actions[i] != null; i++){
