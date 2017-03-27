@@ -98,4 +98,61 @@ public class Character {
 		//return false if the array is full
 		return false;
 	}
+	
+	
+	public void play(){
+		//TODO Implement play method
+		//Take input from the scanner
+		//Read commands and execute them
+		// Recognize the following commands
+		
+		
+		/*
+		 * whereami
+		 *   Prints out the name of the character's current location,
+		 *   Then prints out the name of each character at this place
+		 *   except this character
+		 */
+		
+		/*
+		 * examine me
+		 *    Prints out this character's description
+		 */
+		
+		/*
+		 * examine [otherCharacter]
+		 *    Prints out other character's description
+		 *    Other character must be in the same place
+		 *     as this character
+		 */
+		
+		/*
+		 * take [item] from [otherCharacter]
+		 *   Removes the item from the otherCharacter.
+		 *   otherCharacter must be in the same place as this character
+		 *   otherCharacter must have the item
+		 *   if the removal was successful,
+		 *    adds the item to this character's inventory
+		 *    if adding the item is successful,
+		 *     prints out "Took [item's full name]"
+		 *   Otherwise,
+		 *    prints out "Could not take [item] from [otherCharacter]"
+		 */
+		
+		/*
+		 * go [newPlace]
+		 *  adds the character to newPlace
+		 *  if that is successful, removes this character
+		 *   from their current place and prints out
+		 *   "moved to [newPlace]"
+		 *  otherwise, prints out "could not move to [newPlace]"
+		 */
+		
+		/*
+		 * done
+		 * Terminates the play() method
+		 */
+	
+	}
+	
 }

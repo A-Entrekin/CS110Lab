@@ -78,9 +78,11 @@ public class World {
 
 		
 		//Get ahold of Jon Snow by name
+		
 		//Make him drop Long Claw by name
 		//Demonstrate that he can't drop Long Claw again
 		
+		//Lastly, Play as Stannis the Mannis
 		
 	}
 	
