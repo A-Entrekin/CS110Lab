@@ -102,55 +102,53 @@ public class Character {
 	
 	public void play(){
 		//TODO Implement play method
+		//Print out the menu of options, below
+		/*
+		 * 1: where am I?
+		 * 2: examine me
+		 * 3: examine [somebody]
+		 * 4: go [destination]
+		 * 5: quit
+		 */
 		//Take input from the scanner
 		//Read commands and execute them
-		// Recognize the following commands
+		// *The command can be read as an int
+		// *Command 3 & 4 requires additional input
 		
 		
 		/*
-		 * whereami
+		 * 1: where am I?
 		 *   Prints out the name of the character's current location,
 		 *   Then prints out the name of each character at this place
-		 *   except this character
+		 *   except this character.
 		 */
 		
 		/*
-		 * examine me
-		 *    Prints out this character's description
+		 * 2: examine me
+		 *    Prints out this character's description.
 		 */
 		
 		/*
-		 * examine [otherCharacter]
-		 *    Prints out other character's description
-		 *    Other character must be in the same place
-		 *     as this character
+		 * 3: examine [otherCharacter]
+		 *    Reads the next line of input as the name of the examined character
+		 *    Prints out that other character's description
+		 *    Other character must be in the same place as this character.
 		 */
 		
 		/*
-		 * take [item] from [otherCharacter]
-		 *   Removes the item from the otherCharacter.
-		 *   otherCharacter must be in the same place as this character
-		 *   otherCharacter must have the item
-		 *   if the removal was successful,
-		 *    adds the item to this character's inventory
-		 *    if adding the item is successful,
-		 *     prints out "Took [item's full name]"
-		 *   Otherwise,
-		 *    prints out "Could not take [item] from [otherCharacter]"
-		 */
-		
-		/*
-		 * go [newPlace]
-		 *  adds the character to newPlace
+		 * 4: go [destination]
+		 *  Reads the next line of input as the of the destination
+		 *  adds the character to the destination
 		 *  if that is successful, removes this character
 		 *   from their current place and prints out
-		 *   "moved to [newPlace]"
-		 *  otherwise, prints out "could not move to [newPlace]"
+		 *   "moved to [destination]"
+		 *  otherwise, prints out "could not move to [destination]"
 		 */
 		
 		/*
-		 * done
+		 * 5: done
 		 * Terminates the play() method
+		 * If any other command is read, you should continue reading commands
 		 */
 	
 	}

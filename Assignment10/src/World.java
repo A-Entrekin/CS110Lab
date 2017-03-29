@@ -57,7 +57,7 @@ public class World {
 				new Item[]{new Item("Long Claw"), new Item("Raven")}));
 		theWall.addCharacter(new Character("Stannis the Mannis"));
 		
-		Place riverrun = new Place("River Run");
+		Place riverrun = new Place("Riverrun");
 		riverrun.addCharacter(new Character("Jon Umber 'The Greatjon'"));
 		riverrun.addCharacter(new Character("Jon Umber 'The Littlejon"));
 		riverrun.addCharacter(new Character("Jamie Lannister",
@@ -71,6 +71,7 @@ public class World {
 	
 	public static void main(String[] args){
 		//TODO Test the methods you've written
+		//Add as many print statements as you like
 		World world = getDefaultWorld();
 		//Where's Jamie? Print out his location's name
 		
