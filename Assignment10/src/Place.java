@@ -29,7 +29,7 @@ public class Place {
 		return inhabitants[index];
 	}
 	
-	public Character getCharater(String searchName){
+	public Character getCharacter(String searchName){
 		//TODO Return specified character
 		//Search the array inhabitants for a character with the name searchName.
 		//If there is only one partial match, return the partial match
@@ -41,6 +41,7 @@ public class Place {
 	
 	public Character removeCharacter(Character who){
 		//TODO remove the character who from the array
+		//Leave no gaps, but you don't have to preserve order
 		//Return the removed character
 		//If there is no such character, return null
 		return null;
@@ -48,6 +49,7 @@ public class Place {
 	
 	public Character removeCharacter(String searchName){
 		//TODO remove the character with the name searchName from the array
+		//Leave no gaps, but you don't have to preserve order
 		//Handle partial matches as with getCharacter
 		//Return the removed character
 		//If there is no such character, return null

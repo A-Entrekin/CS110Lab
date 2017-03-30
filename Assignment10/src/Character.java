@@ -23,7 +23,7 @@ public class Character {
 	public Character(String name, Item[] startingItems){
 		this();
 		this.name = name;
-		startingItems = Arrays.copyOf(startingItems, 10);
+		inventory = Arrays.copyOf(startingItems, 10);
 	}
 	
 	public Character(String name, String[] extraActions){
@@ -82,8 +82,9 @@ public class Character {
 	}
 	
 	public boolean take(Item item){
-		//TODO Add the action to the array actions
-		//Use no class members/attributes except actions
+		//TODO Add the item to the array items
+		//Use no class members/attributes except inventory
+		// i.e. Don't just keep track of how many items there are
 		//leave no gaps
 		//return true if the action was successfully added
 		//return false if the array is full
@@ -93,6 +94,7 @@ public class Character {
 	public boolean learn(String action){
 		//TODO Add the action to the array actions
 		//Use no class members except actions
+		// i.e. Don't just keep track of how many items there are
 		//leave no gaps
 		//return true if the action was successfully added
 		//return false if the array is full
@@ -100,7 +102,7 @@ public class Character {
 	}
 	
 	
-	public void play(){
+	public void play(World environment){
 		//TODO Implement play method
 		//Print out the menu of options, below
 		/*
